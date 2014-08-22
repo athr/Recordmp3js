@@ -1,7 +1,7 @@
 (function(window){
 
-  var WORKER_PATH = 'js/recorderWorker.js';
-  var encoderWorker = new Worker('js/mp3Worker.js');
+  var WORKER_PATH = 'bower_components/recordmp3/js/recorderWorker.js';
+  var encoderWorker = new Worker('bower_components/recordmp3/js/mp3Worker.js');
 
   var Recorder = function(source, cfg){
     var config = cfg || {};

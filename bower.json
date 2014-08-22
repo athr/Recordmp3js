@@ -1,0 +1,13 @@
+{
+  "name": "recordmp3",
+  "version": "1.0.0",
+  "authors": [
+    "air <251949141@qq.com>"
+  ],
+  "main": "recordmp3.js",
+  "license": "MIT",
+  "homepage": "https://github.com/twocabbages",
+    "dependencies": {
+        "jquery": "1.11.0"
+    }
+}
